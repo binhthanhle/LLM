@@ -1,0 +1,4 @@
+langchain
+InstructorEmbedding 
+faiss-cpu
+sentence_transformers
