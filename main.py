@@ -28,7 +28,7 @@ class CFG:
     k = 5
     
     # paths
-    Embeddings_path =  '/faiss_hp/'
+    Embeddings_path =  './faiss_hp/'
 
 
 llm = HuggingFaceHub(
