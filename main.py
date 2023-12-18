@@ -28,11 +28,8 @@ class CFG:
     k = 5
     
     # paths
-    PDFs_path = '/Users/binhle/project/llm/model/hp_books/'
-    # PDFs_path = '/kaggle/input/data-visualization-cheat-cheats-and-resources/Data visualizaion Books'
-    Embeddings_path =  '/Users/binhle/project/llm/model/faiss_hp/'
-    Persist_directory = '/Users/binhle/project/llm/model/faiss_hp/harry-potter-vectordb'
-    # Persist_directory = './data-viz-vectordb'
+    Embeddings_path =  '/faiss_hp/'
+
 
 llm = HuggingFaceHub(
     repo_id = CFG.model_name,
